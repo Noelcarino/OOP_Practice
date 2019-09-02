@@ -32,7 +32,7 @@ class Monster {
         }
         this.points[type] = nextValue;
         this.update();
-    }
+    } 
     update() {
         this.domElements.lifePoints.text(this.points.life);
         this.domElements.victoryPoints.text(this.points.victory);
