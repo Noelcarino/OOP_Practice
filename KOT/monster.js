@@ -38,12 +38,22 @@ class Monster {
         this.domElements.victoryPoints.text(this.points.victory);
     }
     render(){
+
+
+        
         this.domElements.container = $("<div>", {
             class: 'monster',
             css: {
                 backgroundImage: 'url(' + this.image + ')'
             }
         })
+
+
+
+
+
+
+
         var pointsContainer = $("<div>",{
             class: 'pointsContainer',
         })

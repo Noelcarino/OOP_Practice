@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    font-family: Chalkduster;
+
+    margin: auto;
+}
+.board{
+    background-color: khaki;
+    height : 70vh;
+    width : 75vw;
+    min-height: 550px;
+    min-width: 550px;
+    max-width: 550px;
+    margin: auto;
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction: column-reverse;
+    opacity : 0.8;
+    justify-content : space-between;
+}
+
+.tile{
+    background-color: cornsilk;
+    border-radius: 50%;
+    height: 12.5%;
+    width: 12.5%;
+    margin: 5px;
+    transition: 0.1s;
+}
+.tile:hover{
+    opacity: 0.8;
+    background-color: red;
+    transition: 0.1s;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color:black
+}
